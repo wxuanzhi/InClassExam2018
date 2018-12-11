@@ -13,4 +13,7 @@ public class Ticket {
 	this.price = price;
 	this.quantity = quantity;
 	}
+	public void print() {
+		System.out.println(origin + "," + destination + "," + price + "," + quantity);
+	}
 	}
