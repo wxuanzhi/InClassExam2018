@@ -6,14 +6,14 @@ public class Ticket {
 	int price;
 	int quantity;
 	
-
 	public Ticket(String origin, String destination, int price, int quantity){
 	this.origin = origin;
 	this.destination = destination;
 	this.price = price;
 	this.quantity = quantity;
 	}
-	public void print() {
-		System.out.println(origin + "," + destination + "," + price + "," + quantity);
+	public String get() {
+		String s = (origin + "," + destination + "," + price + "," + quantity + "," + (quantity*price));
+		return s;
 	}
 	}

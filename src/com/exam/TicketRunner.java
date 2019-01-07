@@ -1,10 +1,11 @@
 package com.exam;
 
+import java.util.ArrayList;
+
 public class TicketRunner {
-	/*  Result:
-	 *  Taipei    Keelung  37   2  74
-	 *  TaiChung  Taipei   285  1  285
-	 * 
+	/* Result:
+	 * Taipei   Keelung   37   2   74
+	 * TaiChung  Taipei   285  1  285
 	 */
 	public static void main(String[] args) {
 		Order order = new Order();
@@ -15,5 +16,4 @@ public class TicketRunner {
 		order.add(ticket);
 		order.print();
 	}
-
 }
